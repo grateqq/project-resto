@@ -3,3 +3,7 @@ body {
   background-color: grey;
   background-image: url("https://i.ibb.co/60m3qCmV/solid-painted-concrete-wall-textured-backdrop.jpg");
 }
+
+.img-front {
+  clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 50% 100%, 0% 75%);
+}
