@@ -1,3 +1,4 @@
+// index.js
 import restobarIamge from "./restobar.jpg"
 
 const homeBoard =(function () {
