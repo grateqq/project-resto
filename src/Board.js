@@ -1,6 +1,6 @@
-//Board.js
+// Board.js
 export default class Board {
-  constructor () {
+  constructor() {
     this.content = document.getElementById("content");
   }
 
@@ -12,8 +12,6 @@ export default class Board {
 
   render(content) {
     this.clear();
-    this.content.innerHTML = content;
+    this.content.innerHTML = content; 
   }
-
-
 }
